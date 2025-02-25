@@ -18,6 +18,10 @@ const teacherSchema = mongoose.Schema({
         type: Number,
         required: true
     },
+    subject: {
+        type: Number,
+        required: true
+    },
 
 },
 {timestamps: true}

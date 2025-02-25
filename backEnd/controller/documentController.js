@@ -14,4 +14,6 @@ const createData = async(req, res)=>{
     }
 }
 
+
+
 module.exports = {createData}
